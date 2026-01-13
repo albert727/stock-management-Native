@@ -22,23 +22,25 @@ Aplikasi berbasis web untuk mengelola stok barang secara real-time. Proyek ini d
    * Composer
    * Web Server (Laragon / XAMPP)
 
-3. Clone repository ini:
+2. Clone repository ini:
 
    git clone https://github.com/albert727/pengelolaan_stok.git
 
-4. Instalasi Dependency
+3. Instalasi Dependency
 
    jalankan composer untuk mengunduh semua library Laravel yang dibutuhkan:
    composer install
 
-6. Konfigurasi Env
+4. Konfigurasi Env
 
-    Salin file .env.example menjadi .env:
+   Salin file .env.example menjadi .env:
    cp .env.example .env
 
-8. Generate Application Key & Migrasi:
+5. Generate Application Key & Migrasi:
+
    php artisan key:generate
    php artisan migrate
 
-9. Jalankan aplikasi:
+6. Jalankan aplikasi:
+
    php artisan serve
