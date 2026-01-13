@@ -31,3 +31,9 @@ Aplikasi manajemen stok barang berbasis web yang dikembangkan untuk mempermudah 
 ### 4. Menjalankan Aplikasi
 * Taruh folder di `C:\laragon\www` atau `htdocs`.
 * Akses melalui browser: `http://localhost/pengelolaan_stok/login.php`.
+
+## 💡 Akses Cepat: 
+
+Klik tombol Live Demo berikut untuk masuk langsung ke dashboard tanpa perlu login.
+
+http://pengelolaanstok.page.gd/demo.php
